@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Acerca de - Métodos Estadísticos FIT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <!-- Estilos centralizados -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="top-bar">
+    <div>
+      <span>📞 (951) 412 48 82</span>
+      <span>✉ 1230167@alumno.um.edu.mx</span>
+      <span>🌐 www.um.edu.mx</span>
+    </div>
+    <div>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <button class="btn-theme" onclick="toggleTheme()">🎨 Tema</button>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://fit.um.edu.mx/wp-content/uploads/2021/11/color-fitec-nombre.png" alt="FIT">
+      </a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="registrar.html">Registrar Año</a></li>
+          <li class="nav-item"><a class="nav-link" href="historico.html">Ver Histórico</a></li>
+          <li class="nav-item"><a class="nav-link" href="proyeccion.html">Proyección General</a></li>
+          <li class="nav-item"><a class="nav-link" href="grafica.html">Grafica</a></li>
+          <li class="nav-item"><a class="nav-link active" href="acerca.html">Acerca de</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="banner">
+    <div class="container">
+      <div class="hashtag">#SOYFITEC</div>
+      <h1>FACULTAD DE INGENIERÍA Y TECNOLOGÍA</h1>
+      <div class="hashtag">#Fitec30</div>
+    </div>
+  </div>
+
+  <main class="container-main">
+    <div class="content-area">
+      <h4>Acerca de esta Herramienta</h4>
+      <p>
+        Desarrollada para la <strong>Facultad de Ingeniería y Tecnología</strong> de la Universidad de Montemorelos,
+        esta aplicación permite el seguimiento estadístico de <strong>ingresos y egresos estudiantiles</strong> por carrera,
+        con fines académicos y de planeación institucional.
+      </p>
+      <h5>Características</h5>
+      <ul>
+        <li>Registro por año y carrera (ISC, IE, IM, ITI, IA, etc.)</li>
+        <li>Visualización en tabla y gráfica interactiva</li>
+        <li>Proyección basada en datos históricos</li>
+        <li>Almacenamiento en base de datos SQL Server</li>
+        <li>Diseño alineado con la identidad visual de FIT UM</li>
+      </ul>
+      <div class="alert alert-info mt-3">
+        <i class="fas fa-info-circle"></i> 
+        <strong>Nota:</strong> Los datos se almacenan en la base de datos institucional y no en el navegador del usuario.
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="currentYear"></span> Facultad de Ingeniería - Métodos Estadísticos</p>
+    </div>
+  </footer>
+
+  <!-- Scripts centralizados -->
+  <script src="main.js"></script>
+</body>
+</html>
